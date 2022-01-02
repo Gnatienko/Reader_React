@@ -17,7 +17,7 @@ const Results = ({ translations }) => {
             </div >
             <div class="original">
               <spun>
-                {translation[0]}
+                {translation[0]} &nbsp
               </spun>
             </div>
           </div>
