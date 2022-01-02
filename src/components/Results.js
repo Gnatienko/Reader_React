@@ -18,10 +18,11 @@ const Results = ({ translations }) => {
             <div class="original">
               <spun>
                 {translation[0]}
-                <div>&nbsp;</div>
               </spun>
+              <div>&nbsp;</div>
             </div>
           </div>
+         
         ))}
       </div>
     </div>
