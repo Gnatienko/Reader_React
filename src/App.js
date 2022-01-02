@@ -20,12 +20,7 @@ const App = () => {
           console.log('Error', error)
         })
 
-    // setTranslations([
-    //   ["have", "мати"],
-    //   ["a", "а"],
-    //   ["good", "хороший"],
-    //   ["day", "день"]
-    // ]);
+
   };
 
   return (

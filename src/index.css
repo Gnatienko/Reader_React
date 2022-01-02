@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.original{
+  font-size: 200%;
+}
+
+.translation{
+  width: 10px;
+  display: block;
+  font-size: 110%;
+  color: #b9b9b9;
+  white-space: nowrap;
+}

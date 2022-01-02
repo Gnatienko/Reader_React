@@ -9,14 +9,18 @@ const Results = ({ translations }) => {
       <h3>Translations</h3>
       <div>
         {translations.map((translation, index) => (
-          <p key={index}> 
-          <div class="translation">
-            <spun>
-              {translation[1]}
-            </spun>
+          <div key={index}>
+            <div class="translation">
+              <spun>
+                {translation[1]}
+              </spun>
+            </div >
+            <div class="original">
+              <spun>
+                {translation[0]}
+              </spun>
+            </div>
           </div>
-            {translation[0]}
-          </p>
         ))}
       </div>
     </div>
