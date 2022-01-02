@@ -6,13 +6,13 @@ import Results from "./components/Results";
 import axios from "axios";
 
 const App = () => {
-  const [translations, setTranslations] = useState([]);
-  const inputRef = useRef(null);
+  const [translations, setTranslations] = useState([]) // useState - делает сетер транслейшена и присваивает пустой масив
+  const inputRef = useRef(null); // 
   const onSubmit = (event) => {
     event.preventDefault();
 
-    axios.get(`https://shielded-castle-03747.herokuapp.com/translate_s/${inputRef.current.value}`)
-        .then((response) => {
+    axios.get(`https://shielded-castle-03747.herokuapp.com/translate_s/${inputRef.current.value}`) // current - поле где лежит хтмл
+        .then((response) => { // все что вернулось с гета выше
           console.log('Success', response)
           setTranslations(response.data)
         })
@@ -31,12 +31,12 @@ const App = () => {
   return (
     <div className="App" style={{ padding: "40px 60px" }}>
       <Header as="h3">Words</Header>
-      <Form onSubmit={onSubmit}>
+      <Form onSubmit={onSubmit}> 
         <Form.Field>
           <label>Enter words</label>
           <input
             ref={inputRef}
-            id="words"
+            id="words" // здесь не нужно
             placeholder="Words"
             style={{ width: "400px" }}
           />
@@ -46,6 +46,7 @@ const App = () => {
 
       <Results translations={translations} />
     </div>
+    // в скобочках переменные в элементе пишутся
   );
 };
 
