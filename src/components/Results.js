@@ -9,7 +9,7 @@ const Results = ({ translations }) => {
       <h3>Translations</h3>
       <div>
         {translations.map((translation, index) => (
-          <div key={index}>
+          <div class="word" key={index}>
             <div class="translation">
               <spun>
                 {translation[1]}
