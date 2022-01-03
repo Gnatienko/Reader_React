@@ -20,12 +20,12 @@ code {
   width: 10px;
   display: block;
   font-size: 110%;
-  color: #b9b9b9;
+  color: #c9c9c9;
   white-space: nowrap;
 }
 .word{
   display: inline-block;
-  background: #EFF0F3;
+  background: #ffffff;
 
-box-shadow: -11px 0px 7px -5px #EFF0F3;
+box-shadow: -11px 0px 7px -5px #ffffff;
 }
