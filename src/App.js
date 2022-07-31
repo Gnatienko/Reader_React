@@ -32,7 +32,7 @@ const App = () => {
           <input
             ref={inputRef}
             id="words" // здесь не нужно
-            placeholder="Words!"
+            placeholder="Words!!"
             style={{ width: "400px" }}
           />
         </Form.Field>
