@@ -28,7 +28,7 @@ const App = () => {
       <Header as="h3">Words</Header>
       <Form onSubmit={onSubmit}> 
         <Form.Field>
-          <label>Enter words</label>
+          <label>Enter words!</label>
           <input
             ref={inputRef}
             id="words" // здесь не нужно
