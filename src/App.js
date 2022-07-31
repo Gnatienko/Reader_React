@@ -7,7 +7,7 @@ import axios from "axios";
 
 const App = () => {
   const [translations, setTranslations] = useState([]) // useState - делает сетер транслейшена и присваивает пустой масив
-  const inputRef = useRef(null); // /
+  const inputRef = useRef(null); // 
   const onSubmit = (event) => {
     event.preventDefault();
 
@@ -28,7 +28,7 @@ const App = () => {
       <Header as="h3">Words</Header>
       <Form onSubmit={onSubmit}> 
         <Form.Field>
-          <label>Enter words!</label>
+          <label>Enter words!!</label>
           <input
             ref={inputRef}
             id="words" // здесь не нужно
