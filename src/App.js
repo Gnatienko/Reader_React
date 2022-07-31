@@ -7,7 +7,7 @@ import axios from "axios";
 
 const App = () => {
   const [translations, setTranslations] = useState([]) // useState - делает сетер транслейшена и присваивает пустой масив
-  const inputRef = useRef(null); // 
+  const inputRef = useRef(null); // /
   const onSubmit = (event) => {
     event.preventDefault();
 
